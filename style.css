@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html {
+    text-align: center;
+    background:url('./0qj4BRH.jpg') no-repeat;
+    background-size: cover;
+    /* background: cover; */
+    font-family: 'Lobster', cursive;
+}
+h1, h2 {
+    margin: 2rem;
+    color: white;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    transition: 0.3s;
+}
+a:hover {
+    color: rgb(252, 146, 164);
+    /* font-size: 24px;
+    font-weight: 400; */
+}
+ul {
+    list-style: none;
+}
+li {
+    margin: 20px 0 20px 0;
+}

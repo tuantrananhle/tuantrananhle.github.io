@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+  <!-- Fontawesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <title>First Bootstrap</title>
+</head>
+
+<body>
+  <!-- Code here -->
+  <!-- navBar -->
+  <nav class="nav navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+    <!-- container để padding 2 bên -->
+    <div class="container">
+        <a href="#" class="navbar-brand">LoopLAB</a>
+        <!-- navbar-toggler + navbar-toggler-icon để css ra cái hamburger
+            data-toggle: để định nghĩa sự kiện khi click vô cái button này, phân biệt với dropdown,...
+            data-target là id nào mà nó sẽ làm collapse
+        -->
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#nav" aria-expanded="false">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- 
+            navbar-collapse: Định nghĩa cho cái nav của mình có thể collapse
+            collapse: trạng thái của nav ban đầu, tức là bị ẩn đi
+            (Khi click sẽ tự động thêm class show vô để hiện ra)
+         -->
+        <div class="navbar-collapse collapse" id="nav" style="">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"> <a href="#home" class="nav-link">Home</a> </li>
+                <li class="nav-item"> <a href="#explore" class="nav-link">Explore</a> </li>
+                <li class="nav-item"> <a href="#create" class="nav-link">Create</a> </li>
+                <li class="nav-item"> <a href="#share" class="nav-link">Share</a> </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+  <!--  -->
+  <div class="black_bg header">
+    <div class="container">
+      <div class="row">
+        <div class="d-none d-lg-block col-lg-8 header__desc">
+          <h1 class="display-4">
+            Build
+            <strong>social profiles</strong>
+            and gain revenue
+            <strong>profits</strong>
+          </h1>
+          <div class="d-flex align-items-center">
+            <i class="far fa-check-circle p-2 icon"></i>
+            <div class="p-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed, tempore iusto
+              in minima facere dolorem!</div>
+          </div>
+          <div class="d-flex align-items-center">
+            <i class="far fa-check-circle p-2 icon"></i>
+            <div class="p-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed, tempore iusto
+              in minima facere dolorem!</div>
+          </div>
+          <div class="d-flex align-items-center">
+            <i class="far fa-check-circle p-2 icon"></i>
+            <div class="p-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed, tempore iusto
+              in minima facere dolorem!</div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <form class="p-3 header__form ">
+            <h3 class="text-center">Sign Up Today</h3>
+            <p class="text-center">Please fill out the form to register</p>
+            <div class="form-group">
+              <input type="text" class="form-control form-control-lg" placeholder="Username" required="">
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control form-control-lg" placeholder="Email">
+            </div>
+            <div class="form-group">
+              <input type="password" class="form-control form-control-lg" placeholder="Password">
+            </div>
+            <div class="form-group">
+              <input type="password" class="form-control form-control-lg" placeholder="Confirm Password">
+            </div>
+            <button type="submit" class="btn btn-outline-light btn-block">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--  -->
+  <div class="p-2 explore bg-dark text-center text-white">
+    <h1 class="display-4 p-1">Explore</h1>
+    <p class="display-5 p-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente doloribus ut iure itaque
+      quibusdam rem
+      accusantium deserunt reprehenderit sunt minus.</p>
+    <a class="btn btn-outline-secondary" href="#">Find out more</a>
+  </div>
+  <!--  -->
+  <div class="section__detail text-secondary">
+    <div class="container py-5">
+      <div class="row d-flex">
+        <div class="section__img col-lg-6">
+          <img class="rounded-circle mb-3" src="./img/explore-section1.jpg" alt="section">
+        </div>
+        <div class="section__detail-content col-lg-6">
+          <h2 class="text-center text-md-left">Explore &amp; Connect</h2>
+          <p class="text-justify">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae fugit unde tempore similique
+            cupiditate assumenda sed exercitationem velit magnam ipsum, rem alias nesciunt autem, laboriosam
+            doloribus repellendus minus, expedita necessitatibus!
+          </p>
+          <div class="d-flex align-items-center">
+            <i class="far fa-check-circle p-2 icon"></i>
+            <div class="p-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed, tempore iusto
+              in minima facere dolorem!</div>
+          </div>
+          <div class="d-flex align-items-center">
+            <i class="far fa-check-circle p-2 icon"></i>
+            <div class="p-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed, tempore iusto
+              in minima facere dolorem!</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--  -->
+  <div class="p-1 create text-center bg-primary text-white">
+    <h1 class="display-4">Create</h1>
+    <p class="p-1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente doloribus ut iure itaque quibusdam
+      rem
+      accusantium deserunt reprehenderit sunt minus.</p>
+    <a class="m-3 btn btn-outline-light" href="#">Find out more</a>
+  </div>
+  <!--  -->
+  <div class="passion bg-dark text-white">
+    <div class="container">
+      <div class="row d-flex">
+        <div class="passion__img col-lg-6 order-1 order-lg-2">
+          <img class="rounded-circle m-3" src="./img/create-section1.jpg" alt="">
+        </div>
+        <div class="passion__content col-lg-6 order-2 order-lg-1">
+          <h2 class="text-center text-md-left">Create Your Passion</h2>
+          <p class="text-justify">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae fugit unde tempore
+            similique cupiditate assumenda sed exercitationem velit magnam ipsum, rem alias nesciunt autem, laboriosam
+            doloribus repellendus minus, expedita necessitatibus!</p>
+          <div class="d-flex align-items-center">
+            <i class="far fa-check-circle p-2 icon"></i>
+            <p class="p-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed, tempore iusto in minima facere
+              dolorem!</p>
+          </div>
+          <div class="d-flex align-items-center">
+            <i class="far fa-check-circle p-2 icon"></i>
+            <p class="p-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed, tempore iusto in minima facere
+              dolorem!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--  -->
+  <div class="p-1 share text-center bg-primary text-white">
+    <h1 class="display-4">Share</h1>
+    <p class="p-1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente doloribus ut iure itaque quibusdam
+      rem
+      accusantium deserunt reprehenderit sunt minus.</p>
+    <a class="m-3 btn btn-outline-light" href="#">Find out more</a>
+  </div>
+  <!--  -->
+  <!--  -->
+  <div class="section__detail text-secondary">
+    <div class="container py-5">
+      <div class="row d-flex">
+        <div class="section__img col-lg-6 order-1 order-lg-2">
+          <img class="rounded-circle mb-3" src="./img/share-section1.jpg" alt="section">
+        </div>
+        <div class="section__detail-content col-lg-6 order-2 order-lg-1">
+          <h2 class="text-center text-md-left">Share What You Create</h2>
+          <p class="text-justify">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae fugit unde tempore similique
+            cupiditate assumenda sed exercitationem velit magnam ipsum, rem alias nesciunt autem, laboriosam
+            doloribus repellendus minus, expedita necessitatibus!
+          </p>
+          <div class="d-flex align-items-center">
+            <i class="far fa-check-circle p-2 icon"></i>
+            <div class="p-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed, tempore iusto
+              in minima facere dolorem!</div>
+          </div>
+          <div class="d-flex align-items-center">
+            <i class="far fa-check-circle p-2 icon"></i>
+            <div class="p-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed, tempore iusto
+              in minima facere dolorem!</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--  -->
+  <div class="p-1 footer text-center bg-dark text-white">
+      <h2>LoopLAB</h2>
+      <p>Copyright © 2019</p>
+      <a class="m-2 btn btn-primary" href="#">Contact us</a>
+    </div>
+  <!--  -->
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script>
+    // Get the current year for the copyright
+    $("#year").text(new Date().getFullYear());
+  </script>
+</body>
+
+</html>

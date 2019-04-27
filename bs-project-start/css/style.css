@@ -1,0 +1,38 @@
+
+.header {
+    background: url('../img/home.jpg');
+    background-attachment: fixed;
+    padding-top: 150px;
+    color: white;
+    height: 100vh;
+}
+.black_bg {
+    position: relative;
+}
+.black_bg::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.575);
+}
+.icon {
+    color: var(--success);
+    font-size: 32px;
+}
+.header__form {
+    background: var(--primary);
+    opacity: 0.8;
+}
+/*  */
+.section__img > img {
+    width: 100%;
+    height: auto;
+}
+.passion__img > img {
+    width: 100%;
+    height: auto; 
+}
